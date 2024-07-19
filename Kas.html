@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FE, KAS KU UDAH LUNAS BLOM?</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background: linear-gradient(to right, #00c6ff, #0072ff);
+            color: #fff;
+            text-align: center;
+        }
+        .container {
+            background: rgba(0, 0, 0, 0.6);
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            max-width: 500px;
+            width: 100%;
+        }
+        .title {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        .button {
+            background-color: #ff5733;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            font-size: 18px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            margin: 10px;
+        }
+        .button:hover {
+            background-color: #c70039;
+        }
+        .output {
+            margin-top: 20px;
+            font-size: 20px;
+        }
+        .footer {
+            margin-top: 30px;
+            font-size: 16px;
+            color: #ddd;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="title">FE, KAS KU UDAH LUNAS BLOM?</div>
+        <button class="button" onclick="showName()">Namaku</button>
+        <div class="output" id="output"></div>
+        <div class="footer">Jawab di WA</div>
+    </div>
+
+    <script>
+        function showName() {
+            document.getElementById('output').innerText = 'NAMAKU BENDORO';
+        }
+    </script>
+</body>
+</html>
+￼Enter
